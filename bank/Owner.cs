@@ -10,5 +10,9 @@ namespace bank
     {
         public string Name { get => Name; set => Name = value; }
 
+        public Owner(string name)
+        {
+            Name = name;
+        }
     }
 }
