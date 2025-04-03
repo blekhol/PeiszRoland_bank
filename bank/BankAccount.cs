@@ -8,7 +8,7 @@ namespace bank
 {
     internal abstract class BankAccount : BankingService
     {
-        private double balance;
+        protected double balance;
 
         public BankAccount(Owner owner) : base(owner)
         {
